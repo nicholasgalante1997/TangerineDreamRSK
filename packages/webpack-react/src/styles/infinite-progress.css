@@ -1,0 +1,39 @@
+.progress {
+  color: var(--cyber-punk-green);
+  border: 2px solid;
+  position: relative;
+}
+
+.progress::before {
+  content: '';
+  position: absolute;
+  margin: 2px;
+  inset: 0 100% 0 0;
+  border-radius: inherit;
+  background: currentColor;
+  animation: p6 2s infinite;
+}
+
+.progress[data-size='progress-small'] {
+  width: 120px;
+  height: 22px;
+  border-radius: 20px;
+}
+
+.progress[data-size='progress-medium'] {
+  width: 150px;
+  height: 27.5px;
+  border-radius: 25px;
+}
+
+.progress[data-size='progress-large'] {
+  width: 187.5px;
+  height: 34.375px;
+  border-radius: 32.5px;
+}
+
+@keyframes p6 {
+  100% {
+    inset: 0;
+  }
+}

@@ -1,0 +1,95 @@
+.button-smpl {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: League-Spartan;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-smpl:focus {
+  color: #3f1fb2ff;
+}
+
+.button-smpl:hover {
+  border-color: #3f1fb2ff;
+  color: #3f1fb2ff;
+  fill: #3f1fb2ff;
+}
+
+.button-smpl:active {
+  border-color: #3f1fb2ff;
+  color: #3f1fb2ff;
+  fill: #3f1fb2ff;
+}
+
+@media (min-width: 768px) {
+  .button-smpl {
+    min-width: 170px;
+  }
+}
+
+/* CSS */
+.button-small {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: League-Spartan;
+  font-size: 16px;
+  font-weight: 600;
+  height: 24px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 16px;
+  min-width: 116px;
+  outline: 0;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 4px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-small:hover {
+  border-color: #3f1fb2ff;
+  color: #3f1fb2ff;
+  fill: #3f1fb2ff;
+  transform: scale(1.12);
+}
+
+.button-small:active {
+  border-color: #3f1fb2ff;
+  color: #3f1fb2ff;
+  fill: #3f1fb2ff;
+  transform: scale(1.12);
+}
