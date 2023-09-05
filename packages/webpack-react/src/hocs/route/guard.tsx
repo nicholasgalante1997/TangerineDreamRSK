@@ -11,6 +11,7 @@ export function withRouteGuard<P = {} & JSX.IntrinsicAttributes>(routeKey: Route
   })
   let canRenderRoute = false
   const environment = process.env.RUNTIME_STAGE as RuntimeStage | undefined
+  console.log(environment);
   if (kvArrayOrUndefined && environment) {
     const [, { environments }] = kvArrayOrUndefined
     const stage = environments[environment]

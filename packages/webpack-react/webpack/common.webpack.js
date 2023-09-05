@@ -1,6 +1,9 @@
 const webpack = require('webpack');
 const path = require('path')
 const { EnvironmentPlugin } = webpack;
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 module.exports = {
   module: {

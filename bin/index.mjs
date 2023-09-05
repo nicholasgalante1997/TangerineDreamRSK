@@ -29,11 +29,10 @@ app
     let didError = false;
     try {
         const destination = resolve(process.cwd(), appName)
-        const source = 'https://github.com/nicholasgalante1997/TangerineDreamRSK/packages/webpack-react'
+        const source = 'nicholasgalante1997/TangerineDreamRSK/packages/webpack-react'
         const degitEE = degit(source, {
           cache: false,
           force: true,
-          mode: 'tar',
           verbose: true
         })
         degitEE.on('info', function (info) {

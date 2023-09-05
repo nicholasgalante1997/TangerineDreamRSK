@@ -9,7 +9,7 @@ dotenv.config()
 const serverWebpackConfig = {
   cache: false,
   entry: {
-    'build-app': path.resolve(process.cwd(), 'src', 'build', 'build-app.tsx'),
+    'build-app': path.resolve(process.cwd(), 'src', 'node-build', 'build-app.tsx'),
   },
   mode: 'production',
   output: {
