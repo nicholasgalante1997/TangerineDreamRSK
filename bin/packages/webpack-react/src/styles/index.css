@@ -1,0 +1,119 @@
+@import '_base_fonts.css';
+@import '_base_margin.css';
+@import '_base_padding.css';
+@import '_base_palette.css';
+
+@import 'banner.css';
+@import 'button.css';
+@import 'infinite-progress.css';
+@import 'link.css';
+@import 'tooltip.css';
+
+html,
+body {
+  font-family:
+    League-Spartan,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000018;
+}
+
+.page {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+  max-height: 100vh;
+  position: relative;
+}
+
+.couch-page-main {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 100vh;
+  width: calc(100% - 96px);
+  z-index: 0;
+}
+.pointer {
+  cursor: pointer;
+}
+
+*:disabled {
+  cursor: not-allowed;
+}
+
+.non-visible-element {
+  height: 0px;
+  width: 0px;
+  opacity: 0;
+  display: none;
+  visibility: hidden;
+}
+
+._401__wrapper {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background: inherit;
+}
+
+._401__content-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 210px;
+  align-items: center;
+  min-height: auto;
+  flex-wrap: nowrap;
+  color: white;
+}
+
+._401__error-code-text {
+  font-family: Chunk;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.04em;
+  line-height: 1.15;
+  vertical-align: middle;
+}
+
+._401__scripted-text {
+  font-family: League-Spartan;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  line-height: 1.15;
+  vertical-align: middle;
+}
+
+._401__vertical-line {
+  display: block;
+  min-width: 2px;
+  background-color: white;
+  min-height: 48px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

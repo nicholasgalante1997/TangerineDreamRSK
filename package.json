@@ -1,24 +1,30 @@
 {
   "name": "@tangerinedream/rsk",
-  "version": "0.0.41",
+  "version": "0.0.51",
   "description": "",
   "main": "bin/index.mjs",
   "type": "module",
   "bin": {
-    "rsk-create": "./bin/index.mjs"
+    "tangerine/react": "./bin/index.mjs"
   },
   "scripts": {
-    "start": "node ./bin/index.mjs"
+    "start": "node ./bin/index.mjs",
+    "format": "prettier --write bin"
   },
-  "files": ["bin"],
+  "files": [
+    "bin"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "commander": "^11.0.0",
-    "degit": "^2.8.4",
     "inquirer": "^9.2.10",
+    "ncp": "^2.0.0",
     "pino": "^8.15.0",
     "pino-pretty": "^10.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
   }
 }

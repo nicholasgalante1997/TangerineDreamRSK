@@ -1,0 +1,19 @@
+.banner__container {
+  width: 100%;
+  height: 72px;
+  box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--amethyst);
+}
+
+.banner__text {
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 300;
+  font-family: Chunk;
+  color: var(--rich-black);
+}
