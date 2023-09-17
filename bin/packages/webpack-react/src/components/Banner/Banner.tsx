@@ -6,7 +6,13 @@ import { showIf } from '@/utils'
 import { BannerClassNames } from './componentMetadata'
 import { type BannerProps } from './types'
 
-function BannerComponent({ text, action, className, id, style = {} }: BannerProps): React.JSX.Element {
+function BannerComponent({
+  text,
+  action,
+  className,
+  id,
+  style = {}
+}: BannerProps): React.JSX.Element {
   return (
     <div style={style} id={id} className={classNames(BannerClassNames.Wrapper, className)}>
       <p className={BannerClassNames.Text}>{text}</p>

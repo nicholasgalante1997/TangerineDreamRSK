@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A react app made with the @tangerinedream/react starter kit.",
   "scripts": {
+    "codegen:tokens": "node ./src/tokens/codegenTokens.mjs",
     "start": "npx serve build",
     "test": "jest --passWithNoTests",
     "cp:assets": "cp -R src/styles/*.css src/styles/*.ttf assets/* build/",

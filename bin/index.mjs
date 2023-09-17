@@ -15,7 +15,7 @@ app
   .version(pkg.version)
 
 app
-  .command('webpack/static')
+  .command('webpack-react')
   .argument('<name>', 'the name of the application')
   .action(async function (appName) {
     if (appName === '') {

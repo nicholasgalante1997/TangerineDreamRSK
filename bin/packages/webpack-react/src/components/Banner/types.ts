@@ -1,4 +1,4 @@
-import { WithStyles } from "@/types"
+import { WithStyles } from '@/types'
 
 export type BannerProps = WithStyles & {
   className?: string
