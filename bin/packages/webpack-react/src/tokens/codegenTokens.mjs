@@ -87,7 +87,6 @@ async function mapTokenJsonToTypescript() {
 
   for (const group of tokenGroups) {
     typesFileStream.write(`export enum ${toTitleCase(group)} {`)
-    typesFileStream.write(NEWLINE + TABCHAR)
     const tokenStrings = crawlTokens(tokens, group, 'ts-enums')
     for (const tokenString of tokenStrings) {
       const didWrite = typesFileStream.write(NEWLINE + TABCHAR + tokenString)
