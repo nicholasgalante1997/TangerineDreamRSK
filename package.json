@@ -5,7 +5,7 @@
   "main": "bin/index.mjs",
   "type": "module",
   "bin": {
-    "tangerine/react": "./bin/index.mjs"
+    "@tangerinejs": "./bin/index.mjs"
   },
   "scripts": {
     "start": "node ./bin/index.mjs",

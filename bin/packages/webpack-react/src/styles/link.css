@@ -12,9 +12,7 @@
   cursor: pointer;
   color: var(--lasercat-teal);
   transform: scale(1.2);
-  transition:
-    color 400ms,
-    transform 400ms;
+  transition: color 400ms, transform 400ms;
   text-decoration: underline;
 }
 

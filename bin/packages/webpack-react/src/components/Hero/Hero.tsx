@@ -18,7 +18,10 @@ function HeroComponent({ actions, text: { main, submain }, image }: HeroProps): 
         <p className={textClassname}>{submain}</p>
         <div className={HeroImageClassnames.Row}>{actions.map(actionToButton)}</div>
       </div>
-      {showIf(image, <img src={image?.src.main} alt={image?.alt} className={HeroImageClassnames.Image} />)}
+      {showIf(
+        image,
+        <img src={image?.src.main} alt={image?.alt} className={HeroImageClassnames.Image} />
+      )}
     </div>
   )
 }

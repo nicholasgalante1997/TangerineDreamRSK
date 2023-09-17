@@ -1,0 +1,78 @@
+{
+  "spec": "https://first-editors-draft.tr.designtokens.org/",
+  "color": {
+    "dark": {
+      "background-main": {
+        "value": "#000018ff",
+        "description": "The primary background color for dark themed websites using the @tangerinedream/react starter kit.",
+        "type": "color",
+        "metadata": {
+          "name": "Rich Black"
+        }
+      }
+    }
+  },
+  "font": {
+    "core": {
+      "heading-100": {
+        "value": "Chunk",
+        "description": "A fat face title font for use with large primary headings.",
+        "type": "font",
+        "metadata": {
+          "use-cases": ["heading", "banner", "call-to-action"],
+          "classname": "chunk"
+        }
+      },
+      "heading-200": {
+        "value": "League-Spartan",
+        "description": "A normal sans serif style font that can be used with a higher font weight for title fonts.",
+        "type": "font",
+        "metadata": {
+          "use-cases": ["heading", "subheading"],
+          "classname": "ls"
+        }
+      },
+      "body-100": {
+        "value": "League-Spartan",
+        "description": "A normal sans serif style font that is used as the standard body font",
+        "type": "font",
+        "metadata": {
+          "use-cases": ["body"],
+          "classname": "ls"
+        }
+      }
+    }
+  },
+  "dimensions": {
+    "none": {
+      "value": "0rem",
+      "description": "No spacing",
+      "type": "dimension"
+    },
+    "space-100": {
+      "value": "0.25rem",
+      "description": "Minimal spacing",
+      "type": "dimension"
+    },
+    "space-200": {
+      "value": "0.5rem",
+      "description": "Slight spacing",
+      "type": "dimension"
+    },
+    "space-300": {
+      "value": "0.75rem",
+      "description": "Moderate spacing",
+      "type": "dimension"
+    },
+    "space-400": {
+      "value": "1rem",
+      "description": "Large spacing",
+      "type": "dimension"
+    },
+    "space-500": {
+      "value": "1.25rem",
+      "description": "Max spacing",
+      "type": "dimension"
+    }
+  }
+}
