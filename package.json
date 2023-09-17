@@ -1,6 +1,6 @@
 {
   "name": "@tangerinedream/rsk",
-  "version": "0.0.51",
+  "version": "0.0.6",
   "description": "",
   "main": "bin/index.mjs",
   "type": "module",
