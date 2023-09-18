@@ -5,7 +5,7 @@ import { existsSync, rmSync, mkdirSync } from 'fs'
 import { resolve } from 'path'
 import ncp from 'ncp'
 import { logger } from './utils/index.mjs'
-import pkg from '../package.json'
+import pkg from '../package.json' assert { type: 'json' }
 
 const app = new Command()
 
